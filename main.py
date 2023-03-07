@@ -7,5 +7,5 @@ def color_name_to_code(color_name):
   except ValueError:
     return None
 colorname = input("Enter color name: ")
-result_code = color_to_code(colorname)
+result_code = color_name_to_code(colorname)
 print(result_code)
